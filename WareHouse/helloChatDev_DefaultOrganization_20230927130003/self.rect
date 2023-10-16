@@ -1,0 +1,2 @@
+Comments on Codes:
+The code is missing the necessary import statements for the classes used in the main.py file. Specifically, the Game, Snake, and Food classes need to be imported from their respective files. To fix this, add the following import statements at the top of the main.py file:

@@ -1,0 +1,86 @@
+{
+  "chain": [
+    {
+      "phase": "Content Type Decision",
+      "phaseType": "SimplePhase",
+      "max_turn_step": -1,
+      "need_reflect": "True"
+    },
+    {
+      "phase": "Keyword Optimization",
+      "phaseType": "SimplePhase",
+      "max_turn_step": -1,
+      "need_reflect": "True"
+    },
+    {
+      "phase": "Content Creation",
+      "phaseType": "SimplePhase",
+      "max_turn_step": 1,
+      "need_reflect": "False"
+    },
+    {
+      "phase": "Content Review",
+      "phaseType": "ComposedPhase",
+      "cycleNum": 3,
+      "Composition": [
+        {
+          "phase": "Content Feedback",
+          "phaseType": "SimplePhase",
+          "max_turn_step": 1,
+          "need_reflect": "False"
+        },
+        {
+          "phase": "Content Revision",
+          "phaseType": "SimplePhase",
+          "max_turn_step": 1,
+          "need_reflect": "False"
+        }
+      ]
+    },
+    {
+      "phase": "Distribution Strategy",
+      "phaseType": "SimplePhase",
+      "max_turn_step": -1,
+      "need_reflect": "True"
+    },
+    {
+      "phase": "Visual Design",
+      "phaseType": "ComposedPhase",
+      "cycleNum": 3,
+      "Composition": [
+        {
+          "phase": "Visual Feedback",
+          "phaseType": "SimplePhase",
+          "max_turn_step": 1,
+          "need_reflect": "False"
+        },
+        {
+          "phase": "Visual Revision",
+          "phaseType": "SimplePhase",
+          "max_turn_step": 1,
+          "need_reflect": "False"
+        }
+      ]
+    },
+    {
+      "phase": "Feedback and Revision",
+      "phaseType": "SimplePhase",
+      "max_turn_step": 1,
+      "need_reflect": "True"
+    }
+  ],
+  "recruitments": [
+    "Chief Content Strategist",
+    "Audience Analyst",
+    "SEO Expert",
+    "Content Creator",
+    "Content Reviewer",
+    "Distribution Strategist",
+    "Visual Designer"
+  ],
+  "clear_structure": "True",
+  "brainstorming": "True",
+  "gui_design": "False",
+  "git_management": "False",
+  "self_improve": "True"
+}
