@@ -1,0 +1,29 @@
+Task:
+classic tetris game that includes timer and progressive levels. ensure that the the blocks fall slow enough that the human user can manipulate them while thye fall. for instance, the first level, it should take the first block at least 8 seconds to travel from top to bottom. ensure that the next block does not appear until the preior block reached it's destination. show a score and a timer on the game screen
+
+Config:
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.brainstorming: False
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+5.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+
