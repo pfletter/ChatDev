@@ -45,8 +45,12 @@ class RoleType(Enum):
 
 class ModelType(Enum):
     GPT_3_5_TURBO = "gpt-3.5-turbo-16k-0613"
+    GPT_3_5_TURBO_NEW = "gpt-3.5-turbo-16k"
     GPT_4 = "gpt-4"
     GPT_4_32k = "gpt-4-32k"
+    GPT_4_TURBO = "gpt-4-turbo"
+    GPT_4_TURBO_V = "gpt-4-turbo"
+
     STUB = "stub"
 
     @property
@@ -60,7 +64,6 @@ class PhaseType(Enum):
     RECRUITING_CPO = "recruiting CPO"
     RECRUITING_CTO = "recruiting CTO"
     DEMAND_ANALYSIS = "demand analysis"
-    BRAINSTORMING = "brainstorming"
     CHOOSING_LANGUAGE = "choosing language"
     RECRUITING_PROGRAMMER = "recruiting programmer"
     RECRUITING_REVIEWER = "recruiting reviewer"
